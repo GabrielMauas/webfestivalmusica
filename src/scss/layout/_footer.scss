@@ -1,0 +1,16 @@
+.footer {
+    background-color: $rosa;
+    padding: $separacion / 4;
+    text-align: center;
+
+    p {
+        color: $blanco;
+        margin: 0;
+    }
+    span {
+        &:hover {
+            font-weight: bold;
+            color: $verde;
+        }
+    }
+}

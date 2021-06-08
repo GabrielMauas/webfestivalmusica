@@ -1,0 +1,29 @@
+.info {
+    padding: $separacion 0;
+
+    @include tablet {
+        @include grid(2, $separacion);
+    }
+}
+.cont-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    @include tablet {
+        text-align: left;
+    }
+
+    h2 {
+        margin-top: 2rem;
+        font-size: 3rem;
+    }
+    .fecha {
+        color: $rosa;
+        font-weight: $bold;
+    }
+    .texto {
+        line-height: 1.5;
+    }
+}
